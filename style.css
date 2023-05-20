@@ -1,5 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: .8em;
+}
 a{
-    color: #ffffff;
+    font-style: none;
+    color:  #fff;
 }
   
 header{
@@ -15,8 +22,9 @@ header{
 }header p{
     display: inline-block;
     margin: 0 75px;
-
-
+}
+main{
+    height: fit-content;
 }
 /*Seção principal do conteudo*/
 .conteudo-principal{
@@ -26,7 +34,8 @@ header{
     width: 100%;
     height: 667px;
 
-}section div{
+}
+section div{
     display: inline-block;
 }.texto-principal{
     position: absolute;
@@ -93,12 +102,17 @@ header{
 }.butao-linke:hover{
     background-color: #00476a;
 }
+
+
 /*Seção dos projetos*/
-#conteudo-projetos{
+
+
+.conteudo-projetos{
     background-color: #005C99 ;
     width: 100%;
     height: 667px;
-}.titulo-seçao{
+}
+.titulo-seçao{
     color: #ffffff;
     font-family: 'Inter';
     font-weight: 700;
@@ -260,3 +274,46 @@ header{
     opacity: 1;
 }
 /*seção  de Certificados*/
+
+.conteudo-certificados{
+    width: 100%;
+    height: 667px;
+    background: #005C99;
+}.card-certificados{
+    width: 80%;
+    height: 400px;
+    background: #005C99;
+    right: 15%;
+    padding: auto;
+    margin:  10%;
+
+}
+.certificados{
+    width: 300px;
+    height: 250px;
+    background-color: #B0CCDF;
+    padding: auto;
+    border-radius: 15px;
+}.certificados:last-child{
+    position: absolute;
+    right: 10%;
+    
+}.certificados a{
+    color: #002740;
+    font-style: none;
+}
+
+.certificados embed{
+    width: 285px;
+    height: 201px;
+    margin-left: 7.5px;
+}
+
+.titulo-certificado{
+    font-size: 20px;
+    color: #002740;
+    letter-spacing: 0.08em;
+    line-height: 150%;
+    text-align: center;
+    font-weight: 600;
+}
